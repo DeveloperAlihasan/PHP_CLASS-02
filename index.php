@@ -88,7 +88,7 @@ switch ($bike ) {
      break; 
 
   default:
-    echo "bike stop in hose";
+    echo "bike stop in house";
 }
 
 
