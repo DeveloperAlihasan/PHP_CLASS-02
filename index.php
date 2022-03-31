@@ -24,22 +24,22 @@ $total_mark = $subjectA + $subjectB + $subjectC + $subjectD ;
 
 //grade marking
 
-if ($average_mark >= 80 & $average_mark <= 100) {
+if ($average_mark >= 80 && $average_mark <= 100) {
     echo "You got A+";
 }
-elseif ($average_mark >= 70 & $average_mark < 80) {
+elseif ($average_mark >= 70 && $average_mark < 80) {
     echo "You got A";
 }
-elseif ($average_mark >= 60 & $average_mark < 80) {
+elseif ($average_mark >= 60 && $average_mark < 80) {
     echo "You got A-";
 }
-elseif ($average_mark >= 50 & $average_mark < 60) {
+elseif ($average_mark >= 50 && $average_mark < 60) {
     echo "You got B";
 }
-elseif ($average_mark >= 40 & $average_mark < 50) {
+elseif ($average_mark >= 40 && $average_mark < 50) {
     echo "You got C";
 }
-elseif ($average_mark >= 0 & $average_mark < 40) {
+elseif ($average_mark >= 0 && $average_mark < 40) {
     echo "You got F";
 }
 
