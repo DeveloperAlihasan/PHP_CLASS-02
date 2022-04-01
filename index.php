@@ -30,7 +30,7 @@ if ($average_mark >= 80 && $average_mark <= 100) {
 elseif ($average_mark >= 70 && $average_mark < 80) {
     echo "You got A";
 }
-elseif ($average_mark >= 60 && $average_mark < 80) {
+elseif ($average_mark >= 60 && $average_mark < 70) {
     echo "You got A-";
 }
 elseif ($average_mark >= 50 && $average_mark < 60) {
